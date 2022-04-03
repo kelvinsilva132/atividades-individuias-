@@ -1,0 +1,94 @@
+.container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-35%, -20% );
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+  }
+  
+  .btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #c70e0e;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left: 110px;
+    top: 0px;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #556b7e;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
+  
+body{
+
+    margin:0;
+
+    padding:0;
+
+    background:black;
+
+}
+/* #526272 */
+
+.Card-box{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50% ,-50%);
+    background: rgba(4, 208, 214, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(245, 21, 21, 0.041);
+    border-radius: 10px;
+    }
+   
+ 
+    .user-box input {
+        width: 100%;
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+    .user-img{
+        border-radius: 50px;
+        width: 100px;
+        box-shadow: 0px 1px 9px #ccc ;
+    }
+    .user-box{
+        margin-bottom: 7px;
+    }
