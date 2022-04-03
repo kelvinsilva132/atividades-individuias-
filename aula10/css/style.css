@@ -1,0 +1,51 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+    h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    }
+
+p, span, div  {
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+}
+header .header-container {
+    padding: 10px;
+}
+
+header { 
+    position: sticky;
+    top: 0px;
+    width: 100%;
+
+}
+
+header .desconto {
+    background-color: #1CD1B0;
+}
+
+header .Titulo-da-pagina {
+    background-color:#00669f ;
+}
+
+main {
+margin-top: 77px;
+}
+
+main .container {
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.card-personagem {
+    width: 373px;
+    background-color: #f3f3f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    margin-right: 223px;
+}
+.card-textos {
+width: 145px;
+}
