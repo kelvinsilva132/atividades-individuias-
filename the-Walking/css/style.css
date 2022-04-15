@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;700&family=Roboto:wght@400;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cf-night-of-terror-personal');
+/* Peguei a fonte no CDNFONTS também */
+* {
+    margin: 0;
+    font-family: 'roboto';
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin:0;
+    padding:0;
+    background:black;
+}
+
+ */header {
+    position: sticky;
+    top: 0;
+    display: flex;   
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-position: center;
+    background-color: black;
+    z-index: 2;
+}
+.container {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    width: 250px;
+    height: 90px;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-image: url("/img/twdbr-logo1.png");
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+.botao-nav {
+    height: 45px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: unset;
+    transition: 0.5s;
+}
+.botao-nav:hover {
+    position: relative;
+    transform: scale(1.5);
+}
+.botao-text {
+    font-size: 25px;
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+}
+.banner {
+    background-image: url("/img/Top_10_Os_Melhores_Personagens_de_The_Walking_Dead_1.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.texto-banner {
+    display: flex;
+    font-size: 80px;
+    font-family: 'CF Night of Terror PERSONAL', sans-serif;
+    color: red;
+    text-shadow: 5px 15px 5px black;
+}
+.descricao-banner {
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    /* text-shadow: 5px 10px 5px black; */
+    backdrop-filter: brightness(60%);
+    padding: 20px;
+}
+.botao {
+    width: 200px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: red;
+    opacity: 90%;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 50px;
+    background: rgba(51, 187, 105, 0.05);
+    border: 3px solid red;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+main {
+    background-color: black;
+    width: 100%;
+    z-index: 2;
+}
+section.secao {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    padding-bottom: 100px;
+}
+.secao {
+    gap: 75px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+.container-Cards {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    column-gap: 50px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 550px;
+    height: 770px;
+    border-radius: 30px;
+    background-image: url("/img/fotocard.png");
+    transition: 0.5s;
+}
+.card:hover {
+    position: relative;
+    transform: scale(1.02);
+    z-index: 1;
+}
+.botao-card {
+    display: block;
+    position: absolute;
+    margin-top: 710px;
+    width: 160px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.botao-card:hover {
+    transition: 0.5s;
+    background-color: red;
+    transform: scale(1.02);
+}
+.card-rick {
+    background-image: url("/img/rickf.png");
+    width: 100%;
+    height: 320px;
+    border-radius: 30px 30px 10px 10px;
+    box-shadow: 0 5px 8px 0 rgba(30, 69, 119,0.57);
+}
+.card-negan {
+    background-image: url("/img/neganf.png") ;
+    width: 100%;
+    height: 320px;
+    border-radius: 30px 30px 10px 10px;
+    box-shadow: 0 5px 8px 0 rgba(30, 69, 119,0.57);
+}
+.card-daryl {
+    background-image: url("/img/darylf.png");
+    width: 100%;
+    height: 320px;
+    border-radius: 30px 30px 10px 10px;
+    box-shadow: 0 5px 8px 0 rgba(30, 69, 119,0.57);
+}
+.card-michonne {
+    background-image: url("/img/michonnef.png");
+    width: 100%;
+    height: 320px;
+    border-radius: 30px 30px 10px 10px;
+    box-shadow: 0 5px 8px 0 rgba(30, 69, 119,0.57);
+}
+.card-carol {
+    background-image: url("/img/Carolf.png");
+    width: 100%;
+    height: 320px;
+    border-radius: 30px 30px 10px 10px;
+    box-shadow: 0 5px 8px 0 rgba(30, 69, 119,0.57);
+}
+.card-maggie {
+    background-image: url("/img/maggief.png");
+    width: 100%;
+    height: 320px;
+    border-radius: 30px 30px 10px 10px;
+    box-shadow: 0 5px 8px 0 rgba(30, 69, 119,0.57);
+}
+p {
+    font-size: 30px;
+}
+h3 {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 25px;
+    color: white;
+    font-family: 'CF Night of Terror PERSONAL', sans-serif;
+}
+.card-texto {
+    align-items: center;
+    font-size: 21px;
+    text-align: center;
+    padding: 25px;
+    display: block;
+    margin-top: 45px;
+    color: white;
+}
+footer {
+    height: 364px;
+    flex-direction: column;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    box-shadow: 5px 0px 10px 8px rgb(56, 51, 51, 50%);
+}
+.rede-social {
+    display: flex;
+}
+.integrantes {
+    color: white;
+    flex-direction: row;
+    display: flex;
+    gap: 300px;
+    font-size: 24px;
+}
+.font {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.linkedin {
+    justify-content: center;
+}
+.github {
+    justify-content: center;
+}
+.texto-footer {
+    display: flex;
+    font-size: 24px;
+    color: white;
+    text-shadow: 5px 15px 5px black; 
+}
+
+/* Estilazação da página de login */
+.container-login {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Card-box {
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    background: rgba(122, 122, 122, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 8px 0 rgba(119, 30, 30, 0.57);
+}
+.user-img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 1px 9px rgb(255, 0, 0) ;
+}
+.login {
+    font-family: 'CF Night of Terror PERSONAL', sans-serif;
+    font-size: 70px;
+    text-shadow: 5px 15px 5px black; 
+    color: red;
+    margin-top: 30px;
+}
+.user-email {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: red;
+    height: 55px;
+    width: 300px;  
+    display: flex; 
+    flex-direction: column;
+}
+.user-pass  {
+    margin-top: 10px;
+    font-size: 1rem;
+    height: 55px;
+    color: red;
+    width: 300px; 
+    display: flex;
+    flex-direction: column;
+}
+.usuario {
+    height: 100px;
+    border-radius: 7px;
+    background-color: black;
+    border-style: none;
+}
+.user-boxText {
+    font-size: 20px;
+    font-weight: bold;
+}
+.check-box {
+    color: red;
+    margin-top: 20px;
+}
+.botao-login {
+    display: block;
+    position: absolute;
+    margin-top: 400px;
+    width: 160px;
+    height: 50px;
+    background-color: black;
+    color: red;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.botao-login:hover {
+    transition: 0.5s;
+    background-color: blue;
+    transform: scale(1.02);
+}
+/* Estilização página de detalhes */
+.banner1 {
+    background-image: url("/img/TWDdetalhes.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center top;
+    font-size: 50px;
+    color: brown;
+    padding: 20px;
+    background-attachment: fixed;
+}
+.titulo-detalhes {
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    font-size: 64px;
+    font-family: 'CF Night of Terror PERSONAL', sans-serif;
+    color: red;
+    text-shadow: 5px 15px 5px black; 
+}
+.texto-detalhes {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding-bottom: 50px;
+    margin-left: 20px;
+}
+.estrelas {
+    padding: 20px;
+}
+.direcao {
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.desc-direcao {
+    font-size: 18px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+.titulo-video {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    padding-top: 40px;
+    font-weight: bold;
+    color: white;
+}
+.video {
+    padding: 50px;
+    justify-content: center;
+    display: flex;
+}
+.video-youtube {
+    border-radius: 25px;
+    box-shadow: 5px 0px 10px 8px rgb(56, 51, 51, 50%);
+    width: 803px;
+    height: 452px;
+}
+/* Responsividade */
+@media (min-width:425px) and (max-width:1280px) {
+    header {
+        width: 100%;
+        height: 130px;        
+    }
+    .navbar {
+        gap: 5px;
+        flex-direction: column;
+    }
+    .botao-nav {
+        height: 30px;
+        width: 120px;
+        border-radius: 20px;
+        display: flex;
+    }
+    .botao-text {
+        font-size: 17px;
+    }
+    .banner {
+        width: 100%;
+        height: 80vh;
+    }
+    .texto-banner {
+        display: flex;
+        font-size: 35px;
+    }
+    .botao {
+        width: 100px;
+        height: 60px;
+        font-size: 1rem;
+    }
+    .descricao-banner {
+        color: white;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    .card {
+        width: 350px;
+        height: 720px;
+    }
+    .card-texto {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .botao-card {
+        margin-top: 675px;
+        width: 110px;
+        height: 35px;
+        font-size: 1.0rem;
+    }
+    .video-youtube {
+        border-radius: 15px;
+        box-shadow: 5px 0px 10px 8px rgb(56, 51, 51, 50%);
+        width: 100%;
+        height: 252px;
+    }
+    .titulo-detalhes {
+        font-size: 44px;
+    }
+    .texto-detalhes {
+        font-size: 14px;
+    }
+    .direcao {
+        gap: 90px;
+        font-size: 16px;
+    }
+    .desc-direcao {
+        font-size: 14px;
+        gap: 50px;
+    }
+    .titulo-video {
+        font-size: 26px;
+    }
+    .video-youtube {
+        width: 603px;
+        height: 252px;
+    }
+    footer {
+        width: 100%;
+        height: 200px;
+    }
+    .integrantes {
+        gap: 4px;
+        font-size: 15px;
+    }
+    .font {
+        font-size: 12px;
+    }
+    .texto-footer {
+        font-size: 16px;
+    }
+
+}
