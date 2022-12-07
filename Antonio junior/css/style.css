@@ -1,6 +1,53 @@
-h1 {
-   color: red;
+*{
+    margin:2;
+    padding:0;
+    list-style: none;
+       }
+
+       body{
+    
+        background-color: rgb(105, 22, 105);
+        right: 400px;
+        position: absolute;
+        text-align: center;
+        font-size:24px;
+       }
+
+
+       h1 {
+       
+        background-color: rgb(153, 74, 74);
+        width: 100%;
 }
 H2 {
     color: orange;
+}
+
+H4 {
+    color:rgba(255, 255, 255, 0.719);
+}
+
+.image{
+    padding: 20px;
+    display: flex;
+    margin:center;
+    border: 1px solid;
+}
+
+.image > div {
+    margin:10px;
+}
+
+
+.p{
+    color: white;
+}
+
+.u {
+    color: white;
+}
+
+.baner {
+    background-color: black;
+  ;
 }

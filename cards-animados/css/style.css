@@ -1,0 +1,215 @@
+*{
+    margin: 1px;
+    padding:0;
+    outline: none;
+}
+
+
+body{
+
+    font-family: sans-serif;
+    display:flex;
+    align-items:flex;
+    min-height: 100vh;
+    background-image: url('https://img.freepik.com/vetores-gratis/videogame-controla-o-quadro-no-estilo-neon-na-parede-de-tijolo_24908-58914.jpg?w=2000');
+    background-repeat:no-repeat ;
+    background-size:cover;
+    justify-content: flex;
+}
+
+.conteudo{
+position: relative;
+width: 50%;
+display:grid;
+grid-gap:0 40px;
+grid-template-rows:auto ;
+grid-template-columns: repeat(auto-fill,minmax(260px, 1fr));
+align-items:center;
+right:-450px;
+}
+
+.conteudo .box {
+   
+    position: relative;
+    background: #000;
+    height: 420px;
+    display:flex;
+    right: 90px;
+    justify-content:center;
+     align-items: center;
+    border: 1px solid #000;
+}
+
+
+.conteudo .box:before{
+
+content: '';
+position: absolute;
+top: -2px;
+left: -2px;
+right: -2px;
+bottom: -2px;
+transform: skew(2deg,2deg);
+background-color: #fff;
+z-index: -1;
+}
+
+
+.conteudo .box:nth-child(1)::before{
+background: linear-gradient(320deg, #ff0057,#e64a19)
+}
+
+.conteudo .box:nth-child(2)::before{
+    background: linear-gradient(320deg, #421c80,#eb1253)
+    }
+
+
+.conteudo .box:nth-child(3)::before{
+        background: linear-gradient(320deg, #21e2b8,#71f11b)
+}
+
+
+.conteudo .box:after{
+
+ content: '';
+position: absolute;
+top:0;
+left: 0;
+width:50%;
+height: 100%;
+background:rgba(255,255,255,0.05) ;
+
+}
+
+.content {
+    position:relative;
+    padding: 20px;
+    transform:translateY(40px);
+    
+}
+
+.content h2 {
+    position: absolute;
+    top:-60px;
+    right: 20px;
+    margin:0;
+    padding:0;
+    font-size: 10em;
+    transition:0.5s;
+    color:rgba(255,255,255,0.07);
+}
+
+.box:hover .content h2{
+    top: -100px;
+}
+
+.box .content h3{
+
+    margin: 0 0 20px;
+    padding:0;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.box .content p {
+    margin:0;
+    padding:0;
+    color:#fff;
+    font-size: 16px;
+}
+
+.box .content a {
+    float: right;
+    margin:20px 0 0;
+    padding:0;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    display: inline-block;
+    color: #fff;
+    opacity: 0.5;
+    visibility: hidden;
+    border-radius: 0 8px 8px 8px;
+
+}
+
+.box:hover .content a{
+    opacity: 1;
+    visibility: visible;
+
+}
+
+:root{
+    --cor-fundo : rgb(0, 0, 0);
+    --cor-primaria : rgb(0, 0, 0);
+    --cor-hover : rgb(8, 1, 1);
+} 
+
+.dp-menu ul{
+list-style-type: none;
+padding:0;
+}
+
+.dp-menu ul {
+    background: linear-gradient(320deg, #02e7b6,#66ff00); 
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+.dp-menu ul li {
+display:inline;
+position: relative;
+}
+
+.dp-menu ul li a{
+   color:var(--cor-primaria);
+   text-decoration: none;
+   display:inline-block;
+   padding:10px;
+   transition: background 0.3;
+ }
+
+ .dp-menu ul ul{
+    display:none;
+    left:0;
+    position: absolute;
+   
+ }
+
+ .dp-menu ul li:hover ul{
+    display:block;
+    opacity:1;
+ }
+
+ .dp-menu ul ul{
+    width: 150px;
+
+ }
+
+ .dp-menu ul ul li a {
+    display: block;
+ }
+
+
+
+ .butao {
+    position:relative;
+    height: 21px;
+    display:block;
+    right: 283px;
+    justify-content:fixed;
+     align-items:fixed;
+    border: 2px solid #000;
+    background: linear-gradient(320deg, #ff7214,rgb(0, 255, 242)); 
+    border-radius: 10px;
+    margin:100PX;
+    padding:10px;
+    left: -450px;
+ }
+
+ .butao a{
+    color:black;
+ }
+
+ 
