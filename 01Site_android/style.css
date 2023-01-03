@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(44, 172, 97, 0.568);
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#noticias h2 {
+    color: var(--cor5);
+    font-family: var(--fonte-android);
+    font-weight: normal;
+    font-size: 1.8em
+}
+
+
+header{
+    background-image: linear-gradient(to top, rgb(4, 92, 25) ,rgb(5, 109, 29),rgba(19, 192, 59, 0.788));
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 109px;
+    justify-content: space-around   
+}
+
+p {
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+
+li {
+    list-style-type:none;
+    font-weight: bold;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    color:rgb(255, 255, 255); 
+}
+
+nav > a{
+    text-decoration:none ;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-right: 13px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+
+nav > a:hover {
+    background-color:rgba(4, 187, 4, 0.322) ;
+    border-radius:5px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+main{
+
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+    margin: 10px 60px 10px 60px;
+    
+}
+
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(3, 78, 3);
+    background-color:rgba(4, 187, 4, 0.322) ;
+    padding: 2px 6px;
+}
+
+
+article {
+    padding: 10px;
+    color: rgb(1, 65, 44);
+}
+
+
+article > p {
+    color:black;
+    text-align: left;
+}
+
+
+
+.sub {
+    color: rgba(2, 70, 2, 0.938);
+    background-color: rgba(26, 197, 26, 0.411);
+}
+
+#noticias{
+    margin: 0px;
+    padding: 22px;
+    
+}
+
+footer{
+    background-image: linear-gradient(to top, rgb(0, 41, 10) ,rgb(2, 87, 21),rgba(19, 192, 59, 0.788));
+    color: aquamarine;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 20px;
+    height: 10px;
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+div {
+    display: block;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+div.video {
+    background-color:rgba(2, 70, 2, 0.938);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+#video{
+    margin-top: 10px;
+    background-color: darkgreen;
+}
+
+.P1{
+    display:flex;
+    margin:0;
+    padding:0;
+    background-color: rgba(2, 114, 71, 0.801);
+    color: white;
+    width:100%;
+    height: 48px;
+   
+}
+
+.pp{
+    margin: auto;
+    align-items: center;
+    height: 10px;
+    border-radius: 100px;
+}
+
+#outros{
+    margin:12px 18px 30px 18px;
+    padding: 0;
+    background-color: rgba(137, 236, 198, 0.603);
+    width: 100%;
+    border-radius: 14px;
+    justify-content: space-around;
+}
+
+#container2{  
+      
+    display: flex;
+    background-color: rgb(228, 228, 228);
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.text{
+    color:rgba(19, 19, 19, 0.952);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.lista{
+    display: inline-block;
+    text-align: left;
+    height: 131px;
+    width: 200px;
+    margin-right: 80px;
+}
+
+aside > ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+aside {
+    background-color:rgba(0, 158, 84, 0.418);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgb(0 0 0 / 28%);
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+aside > h3 {
+    background-color:rgba(1, 71, 1, 0.822) ;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
